@@ -15,6 +15,7 @@
 		F445EA031A46468900D1F04A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F445EA021A46468900D1F04A /* Images.xcassets */; };
 		F445EA061A46468900D1F04A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F445EA041A46468900D1F04A /* LaunchScreen.xib */; };
 		F445EA121A46468900D1F04A /* jukeboxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F445EA111A46468900D1F04A /* jukeboxTests.m */; };
+		F445EA1C1A46482900D1F04A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F445EA1B1A46482900D1F04A /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		F445EA0B1A46468900D1F04A /* jukeboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jukeboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F445EA101A46468900D1F04A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F445EA111A46468900D1F04A /* jukeboxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jukeboxTests.m; sourceTree = "<group>"; };
+		F445EA1B1A46482900D1F04A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F445EA1C1A46482900D1F04A /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +69,7 @@
 		F445E9E61A46468900D1F04A = {
 			isa = PBXGroup;
 			children = (
+				F445EA1B1A46482900D1F04A /* MediaPlayer.framework */,
 				F445E9F11A46468900D1F04A /* jukebox */,
 				F445EA0E1A46468900D1F04A /* jukeboxTests */,
 				F445E9F01A46468900D1F04A /* Products */,
