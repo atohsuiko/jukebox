@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		F445E9F51A46468900D1F04A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F445E9F41A46468900D1F04A /* main.m */; };
 		F445E9F81A46468900D1F04A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F445E9F71A46468900D1F04A /* AppDelegate.m */; };
-		F445E9FB1A46468900D1F04A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F445E9FA1A46468900D1F04A /* FirstViewController.m */; };
+		F445E9FB1A46468900D1F04A /* Search.m in Sources */ = {isa = PBXBuildFile; fileRef = F445E9FA1A46468900D1F04A /* Search.m */; };
 		F445E9FE1A46468900D1F04A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F445E9FD1A46468900D1F04A /* SecondViewController.m */; };
 		F445EA011A46468900D1F04A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F445E9FF1A46468900D1F04A /* Main.storyboard */; };
 		F445EA031A46468900D1F04A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F445EA021A46468900D1F04A /* Images.xcassets */; };
@@ -34,8 +34,8 @@
 		F445E9F41A46468900D1F04A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F445E9F61A46468900D1F04A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F445E9F71A46468900D1F04A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F445E9F91A46468900D1F04A /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		F445E9FA1A46468900D1F04A /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		F445E9F91A46468900D1F04A /* Search.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Search.h; sourceTree = "<group>"; };
+		F445E9FA1A46468900D1F04A /* Search.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Search.m; sourceTree = "<group>"; };
 		F445E9FC1A46468900D1F04A /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		F445E9FD1A46468900D1F04A /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		F445EA001A46468900D1F04A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -90,8 +90,8 @@
 			children = (
 				F445E9F61A46468900D1F04A /* AppDelegate.h */,
 				F445E9F71A46468900D1F04A /* AppDelegate.m */,
-				F445E9F91A46468900D1F04A /* FirstViewController.h */,
-				F445E9FA1A46468900D1F04A /* FirstViewController.m */,
+				F445E9F91A46468900D1F04A /* Search.h */,
+				F445E9FA1A46468900D1F04A /* Search.m */,
 				F445E9FC1A46468900D1F04A /* SecondViewController.h */,
 				F445E9FD1A46468900D1F04A /* SecondViewController.m */,
 				F445E9FF1A46468900D1F04A /* Main.storyboard */,
@@ -230,7 +230,7 @@
 			files = (
 				F445E9FE1A46468900D1F04A /* SecondViewController.m in Sources */,
 				F445E9F81A46468900D1F04A /* AppDelegate.m in Sources */,
-				F445E9FB1A46468900D1F04A /* FirstViewController.m in Sources */,
+				F445E9FB1A46468900D1F04A /* Search.m in Sources */,
 				F445E9F51A46468900D1F04A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +422,7 @@
 				F445EA171A46468900D1F04A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F445EA181A46468900D1F04A /* Build configuration list for PBXNativeTarget "jukeboxTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +431,7 @@
 				F445EA1A1A46468900D1F04A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E737DF80-1F63-4386-9E01-3637A6D51E70</string>
+	<key>IDESourceControlProjectName</key>
+	<string>jukebox</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AD1AF8691CC233BFD09A7377E8F62862A8359B3F</key>
+		<string>https://github.com/atohsuiko/jukebox.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>jukebox.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AD1AF8691CC233BFD09A7377E8F62862A8359B3F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/atohsuiko/jukebox.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AD1AF8691CC233BFD09A7377E8F62862A8359B3F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AD1AF8691CC233BFD09A7377E8F62862A8359B3F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>jukebox</string>
+		</dict>
+	</array>
+</dict>
+</plist>
