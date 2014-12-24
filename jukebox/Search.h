@@ -11,6 +11,7 @@
 @interface FirstViewController : UIViewController<NSURLConnectionDelegate,UISearchDisplayDelegate>
 {
     NSMutableData *_responseData;
+    
 }
 @property (nonatomic, strong) NSArray *tableData;
 @property (nonatomic, strong) NSMutableArray *searchResult;

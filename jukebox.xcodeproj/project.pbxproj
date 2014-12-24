@@ -177,9 +177,11 @@
 				TargetAttributes = {
 					F445E9EE1A46468900D1F04A = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 4SLTP49S4Z;
 					};
 					F445EA0A1A46468900D1F04A = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 4SLTP49S4Z;
 						TestTargetID = F445E9EE1A46468900D1F04A;
 					};
 				};
@@ -373,6 +375,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -384,6 +388,7 @@
 				INFOPLIST_FILE = jukeboxTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jukebox.app/jukebox";
 			};
 			name = Debug;
@@ -392,6 +397,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -399,6 +406,7 @@
 				INFOPLIST_FILE = jukeboxTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jukebox.app/jukebox";
 			};
 			name = Release;

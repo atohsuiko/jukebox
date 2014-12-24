@@ -9,6 +9,7 @@
 #import "Search.h"
 
 @interface FirstViewController ()
+
 @end
 
 @implementation FirstViewController
@@ -18,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.tableData = @[@"One", @"Two", @"Three", @"Four"];
+   // self.tableData = @[@"One", @"Two", @"Three", @"Four"];
     self.searchResult = [NSMutableArray arrayWithCapacity:[self.tableData count]];
     
     //POST request
@@ -38,8 +39,7 @@
     
     // Create url connection and fire request
     NSURLConnection *conn = [[NSURLConnection alloc] initWithRequest:request delegate:self];
-    
-    NSLog(_responseData);
+    conn = [[NSURLConnection alloc]initWithRequest:request delegate:self];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -124,7 +124,6 @@
     // The request has failed for some reason!
     // Check the error var
 }
-
 
 
 
